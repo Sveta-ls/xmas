@@ -87,6 +87,7 @@ a.primary {
   background: var(--text-primary);
   color: var(--background);
   gap: 8px;
+  text-decoration: none !important;
 }
 
 a.secondary {
@@ -98,11 +99,13 @@ a.secondary {
   a.primary:hover {
     background: var(--button-primary-hover);
     border-color: transparent;
+    text-decoration: none !important;
   }
 
   a.secondary:hover {
     background: var(--button-secondary-hover);
     border-color: transparent;
+    text-decoration: none !important;
   }
 }
 
