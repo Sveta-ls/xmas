@@ -1,6 +1,9 @@
 :HL["/xmas/_next/static/chunks/04eec976a172a55a.css","style"]
+:HL["./globals.css","style"]
+:HL["./my.css","style"]
+:HL["./fonts.css","style"]
 :HL["ribbon_2025.svg","image"]
 :HL["pink_gift.svg","image"]
 :HL["red_gift.svg","image"]
 :HL["yellow_gift.svg","image"]
-0:{"buildId":"RCJJhPoJe30zf4tQLMECP","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"QVFyRlkzaa1_ABbyZUJlB","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
