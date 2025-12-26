@@ -1,0 +1,160 @@
+* {
+  outline: none;
+}
+.ribbon_img {
+  width: 100%;
+  height: 100%;
+}
+
+.ribbon {
+  margin-right: 0;
+  margin-top: 0;
+  margin-left: auto;
+  display: block;
+  width: fit-content;
+}
+
+.gift_img {
+  width: 100%;
+  height: auto;
+}
+
+.gifts {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  width: 70%;
+}
+
+.h_text_home {
+  font-family: "CD Ovuer", sans-serif;
+  font-size: 50px;
+}
+
+.h_wrap {
+  font-family: "CD Ovuer", sans-serif;
+  font-size: 35px;
+  line-height: 90%;
+  width: 75%;
+  color: #f6dfb8;
+}
+
+.p_text_home {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 14;
+  font-weight: 100;
+  width: 80%;
+}
+
+.p_wrap {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 14;
+  width: 80%;
+  margin-top: 20px;
+  color: #f6dfb8;
+}
+
+.main_sec {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  margin-top: 14px;
+  color: #f6dfb8;
+}
+
+.margins {
+  width: 70%;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.button_main {
+  color: #0d2115;
+  font-family: "CD Ovuer", sans-serif;
+  font-size: 25px;
+  margin-top: 80px;
+  border-radius: 60px;
+  padding: 7px 17px 7px 17px;
+  min-width: 70%;
+  background-color: #f6dfb8;
+  border: none;
+  outline: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-appearance: none; /* убрать стили браузера */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.button_main:visited {
+  color: #0d2115; /* сохраняем цвет */
+  text-decoration: none;
+}
+
+/* Убрать состояние hover */
+.button_main:hover {
+  text-decoration: none;
+}
+
+/* Убрать состояние active */
+.button_main:active {
+  text-decoration: none;
+}
+.info_l_h {
+  color: #f6dfb8;
+  font-family: "CD Ovuer", sans-serif;
+  font-size: 60px;
+  margin: 0 auto 10 60;
+}
+
+.info_l_p {
+  color: #f6dfb8;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 14;
+  margin: 0 auto 0 60;
+  padding-bottom: 20px;
+  width: 50%;
+}
+
+.info_r_h {
+  color: #f6dfb8;
+  font-family: "CD Ovuer", sans-serif;
+  font-size: 60px;
+  margin: 0 60 10 auto;
+}
+
+.info_r_p {
+  color: #f6dfb8;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 14;
+  margin: 0 60 10 auto;
+  width: 50%;
+  text-align: right;
+}
+
+@keyframes simple-glow {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+  50% {
+    transform: scale(1.03);
+    filter: brightness(1.1);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+.ripple-animation {
+  animation: simple-glow 0.5s ease-in-out;
+}
