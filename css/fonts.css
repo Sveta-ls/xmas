@@ -1,10 +1,12 @@
 @font-face {
   font-family: "CD Ovuer";
   src: local("CD Ovuer"), url(/CDOvuer-Regular.woff) format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "PT Sans Narrow";
   src: local("PT Sans Narrow"),
     url(/public/PT_Sans-Narrow-Web-Regular.ttf) format("ttf");
+  font-display: swap;
 }
