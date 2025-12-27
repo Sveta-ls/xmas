@@ -1,2 +1,0 @@
-:HL["/xmas/_next/static/chunks/c47b0251d7c526f0.css","style"]
-0:{"buildId":"2g_ol690-o0FphHHkBvcj","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"about","paramType":null,"paramKey":"about","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
